@@ -8,8 +8,8 @@ import java.io.IOException;
 
 public class OriginFilter extends OncePerRequestFilter {
 
-    private static final String ALLOWED_ORIGIN = "https://photosong.vercel.app";
-    //private static final String ALLOWED_ORIGIN = "http://localhost:4200";
+    //private static final String ALLOWED_ORIGIN = "https://photosong.vercel.app";
+    private static final String ALLOWED_ORIGIN = "http://localhost:4200";
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
